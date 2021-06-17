@@ -1,6 +1,4 @@
 #!/bin/bash
-apt-get --assume-yes update
-apt-get --assume-yes upgrade
-apt-get -assume-yes install ruby-full ruby-bundler build-essential
-ruby -v
-bundler -v
+
+sudo apt update
+sudo apt install -y ruby-full ruby-bundler build-essential
