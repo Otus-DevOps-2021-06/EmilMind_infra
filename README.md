@@ -3,8 +3,8 @@
 
 
 Адреса машин:
-- bastion_IP = 178.154.205.192 
-- someinternalhost_IP = 10.128.0.21
+bastion_IP = 178.154.205.192 
+someinternalhost_IP = 10.128.0.21
 
 
 Подключение к машине someinternalhost в одну комманду можно выполнить по шаблону:
