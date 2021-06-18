@@ -1,12 +1,12 @@
 # EmilMind_infra
-## Подключение через бастион хост
 
+EmilMind Infra repository
 
 Адреса машин:
 bastion_IP = 178.154.205.192 
 someinternalhost_IP = 10.128.0.21
 
+testapp_IP = 217.28.231.142
+testapp_port = 9292
 
-Подключение к машине someinternalhost в одну комманду можно выполнить по шаблону:
-- ssh -J appuser@bastion_ip appuser@privat_someinternalhost_ip
-- ssh -J appuser@178.154.205.192 appuser@10.128.0.21
+
