@@ -1,11 +1,3 @@
-terraform {
-  required_providers {
-    yandex = {
-      source  = "yandex-cloud/yandex"
-      version = "0.60"
-    }
-  }
-}
 
 // Configure the Yandex.Cloud provider
 provider "yandex" {
@@ -13,6 +5,7 @@ provider "yandex" {
   cloud_id                 = var.cloud_id
   folder_id                = var.folder_id
   zone                     = var.zone
+  version                  = 0.35
 }
 
 resource "yandex_compute_instance" "app" {
