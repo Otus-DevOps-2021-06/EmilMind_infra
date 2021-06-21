@@ -29,3 +29,6 @@ variable "res_zone" {
   description = "This is resource zone"
   default     = "ru-central1-a"
 }
+variable "count_app" {
+  description = "Number of virtual machines"
+}
