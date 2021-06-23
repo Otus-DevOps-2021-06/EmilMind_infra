@@ -3,8 +3,8 @@
 import requests
 import json
 
-YCOauth = 'token'
-folder_id = 'folder'
+YCOauth = 'YCOauth'
+folder_id = 'folder_id'
 
 response = requests.post('https://iam.api.cloud.yandex.net/iam/v1/tokens', json={'yandexPassportOauthToken':YCOauth})
 YCiamToken = json.loads(response.content)['iamToken']
