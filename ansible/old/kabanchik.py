@@ -23,6 +23,6 @@ for instance in instances:
         print(instance['labels']['tags'] + ' not match')
 output = '{' + '"app":{"hosts":{"appserver":{"ansible_host":"' + appserver + '"} } },"db":{"hosts":{"dbserver":{"ansible_host":"' + dbserver + '"} } } }'
 
-file = open("inventory.json", "w")
+file = open("./environments/stage/inventory.json", "w")
 file.write(output)
 file.close()
